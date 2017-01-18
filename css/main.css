@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 8em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.date {
+    font-size: 2em;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.32);
+}
+
+@media screen and (max-device-width: 540px) {
+    .clock {
+        font-size: 4em;
+    }
+}
